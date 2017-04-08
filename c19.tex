@@ -3,14 +3,17 @@
 
 \documentclass[withoutpreface,bwprint]{cumcmthesis}
 
-\title{基于最佳舒适度和最好减速效果的减速路障设计}
+\title{基于汽车动力学响应分析的减速路障设计}
 \tihao{C}
 \baominghao{19}
 \begin{document}
 \maketitle
 \begin{abstract}
 
-\keywords{}
+减速路障在道路上寻常可见，也是不可缺少的交通设施。
+本文基于车辆通过减速路障时的汽车动力学响应而设计几种可行的形状，并讨论车型和车速对减速效果和车辆颠簸程度的影响。
+
+\keywords{减速丘\quad 汽车动力学\quad }
 \end{abstract}
 
 \section{问题重述}
@@ -24,8 +27,18 @@
 
 \section{问题分析}
 
-由于减速路障形状、间距不同，导致车辆轮胎压过路障时，发生的形变以及受力方向都会发生变化
+减速路障是通过影响驾驶人的驾驶心理从而实现减速的。当车辆以较高的车速通过减速路障时，
+剧烈的震动会从轮胎经由车身和座椅传递给驾驶人，产生垂直方向的加速度，产生强烈的不适感\citeup{cmhskl2008}。
+通常，驾驶人会认为驾驶舒适度越小，道路情况越危险，车辆行驶安全性更小。
+因此，减速路障的设置会促使驾驶人主动降低速度，选择较低的期望车速。
+在期望车速指导下，驾驶员将主动驾驶车辆以较低的速度通过减速路障。
+
 \subsection{问题一分析}
+
+不同形状的减速路障的减速效果主要体现在能否引起驾驶员注意及驾驶员以较高速度通过时的减速效果，
+不同形状的减速路障也会带给驾驶人及乘车人不同的行车体验。
+
+分析不同形状的减速路障，把汽车近似成为一个刚体，分析
 
 \subsection{问题二分析}
 
@@ -38,14 +51,8 @@
 \begin{tabular}{cc}
  \hline
  \makebox[0.4\textwidth][c]{符号}	&  \makebox[0.5\textwidth][c]{意义} \\ \hline
- D	    & 木条宽度（cm） \\ \hline
- L	    & 木板长度（cm）  \\ \hline
- W	    & 木板宽度（cm）  \\ \hline
- N	    & 第n根木条  \\ \hline
- T	    & 木条根数  \\ \hline
- H	    & 桌子高度（cm）  \\ \hline
- R	    & 桌子半径（cm）  \\ \hline
- R	    & 桌子直径（cm）  \\ \hline
+ $D$	    & 木条宽度（cm） \\ \hline
+ $L$	    & 木板长度（cm）  \\ \hline
 \end{tabular}
 
 \section{模型建立与求解}

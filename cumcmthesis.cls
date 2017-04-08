@@ -512,6 +512,10 @@ Just choose `xelatex', no `pdflatex' or `latex' and so on.}
 \endquotation
 }
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\citeup[1]{
+	$^{\text{\cite{#1}}}$
+}
 
 \endinput
 
